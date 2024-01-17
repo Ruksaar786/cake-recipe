@@ -1,1 +1,7 @@
-
+.list {
+  list-style: none;
+  text-align: center;
+}
+ul li {
+  list-style: none;
+}
