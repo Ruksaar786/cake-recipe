@@ -1,7 +1,65 @@
-.list {
-  list-style: none;
-  text-align: center;
+* {
+  margin-left: 10px;
+  padding: 0;
+  box-sizing: border-box;
 }
-ul li {
+div {
+  display: block;
+}
+.recipe {
   list-style: none;
+  align-items: flex-end;
+  display: inline;
+}
+.menu {
+  margin-top: 20px;
+  margin-left: 10px;
+  display: flex;
+  text-align: start;
+  justify-content: space-between;
+}
+
+.navbar {
+  color: rgb(7, 7, 7);
+}
+.navdiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.link_wrapper {
+  color: #d54215;
+  margin-right: 10px;
+}
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+.flex-container {
+  width: 350px;
+  padding: 40px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  text-align: center;
+  display: flex;
+}
+
+.Save {
+  width: 5rem;
+  background: rgb(213, 66, 21);
+  color: #fff;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.Rate {
+  background-color: #f5f6ea;
+}
+.Print {
+  background-color: #f5f6ea;
+}
+
+.Share {
+  background-color: #f5f6ea;
 }
