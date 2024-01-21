@@ -1,26 +1,33 @@
 * {
-  margin-left: 10px;
+  margin: 10px;
   padding: 0;
   box-sizing: border-box;
 }
+
 div {
-  display: block;
+  display: flex;
 }
+
 .recipe {
   list-style: none;
   align-items: flex-end;
   display: inline;
 }
 .menu {
-  margin-top: 20px;
-  margin-left: 10px;
   display: flex;
-  text-align: start;
+  text-align: flex-start;
   justify-content: space-between;
+  border-bottom: 1px solid gray;
+  width: 100%;
+
+  font-weight: bold;
 }
 
-.navbar {
-  color: rgb(7, 7, 7);
+.navdiv {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  align-items: center;
+  display: row;
 }
 .navdiv {
   display: flex;
@@ -30,31 +37,37 @@ div {
 .link_wrapper {
   color: #d54215;
   margin-right: 10px;
+  font-size: 0.87rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-underline-offset: 0.25rem;
 }
-li {
+ol {
   list-style: none;
-  display: inline-block;
-}
-
-.flex-container {
-  width: 350px;
-  padding: 40px;
-  border: 1px solid #ccc;
-  margin-bottom: 20px;
-  text-align: center;
   display: flex;
+}
+.flex-container {
+  width: 600px;
+  padding: 40px;
+  border: 1px solid #c4bdbd;
+  border-top: 10px solid #e7ab46;
+  border-radius: 5px;
+  line-height: 1.7rem;
+  text-align: justify;
 }
 
 .Save {
   width: 5rem;
   background: rgb(213, 66, 21);
   color: #fff;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   margin-top: 10px;
+  /* box-sizing: border-box; */
 }
 
 .Rate {
   background-color: #f5f6ea;
+  box-sizing: border-box;
 }
 .Print {
   background-color: #f5f6ea;
